@@ -1,0 +1,40 @@
+.aboutPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    scroll-snap-type: start;
+}
+
+.left {
+    width: 50vw;
+    height: 50vh;
+    flex-direction: row;
+}
+
+.right {
+    width: 50vw;
+    height: 50vh;
+    flex-direction: row;
+}
+
+.about {
+    font-size: 3em;
+    align-self: center;
+    margin-top: 1.5em;
+}
+
+.summary {
+    width: 40vw;
+    height: 75vh;
+    font-size: 1.25em;
+    text-align: justify;
+    align-self: center;
+    margin-left: 100px;
+}
+
+.cutepic {
+    height: 95%;
+    align-self: center;
+    padding: 2em;
+    margin-top: 6em;
+}

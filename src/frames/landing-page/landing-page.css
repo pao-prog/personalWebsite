@@ -1,0 +1,28 @@
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/portrait.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    scroll-snap-type: start;
+}
+
+.title {
+    font-size: 5em;
+    position: absolute;
+    right: 0.9em;
+    bottom: 3.60em;
+    color: white;
+    
+}
+
+.subtitle {
+    font-size: x-large;
+    font-family: 'Bentham', serif;
+    position: absolute;
+    right: 3.45em;
+    bottom: 11em;
+    color: white;
+}
