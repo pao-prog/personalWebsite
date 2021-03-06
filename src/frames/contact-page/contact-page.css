@@ -1,0 +1,28 @@
+.contactPage {
+    width: 100vw;
+    height: 92vh;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-self: center;
+    padding: 7em;
+}
+
+.github {
+    color: black;
+    padding: 5em;
+}
+
+.linkedin {
+    color: black;
+    padding: 5em;
+}
+
+.email {
+    color: black;
+    padding: 5em;
+}
+

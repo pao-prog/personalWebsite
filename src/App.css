@@ -5,4 +5,10 @@
   text-align: center;
   scroll-snap-align: y mandatory;
   font-family: 'Playfair Display', 'serif';
+  overflow: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+

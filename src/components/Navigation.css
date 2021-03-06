@@ -1,0 +1,35 @@
+.navbar {
+  height: 12vh;
+  width: 100vw;
+  z-index: 99;
+  top: 0;
+  transition: .5s;
+  position: fixed;
+  display: flex;
+  background-color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  flex-direction: row;
+  float: left;
+  cursor: pointer;
+  color: #333333;
+  font-size: 1em;
+  font-weight: 0.5em;
+  padding: 1em;
+  transition: .5s;
+}
+
+.navbar a:hover {
+  background-color: #F5F5F5;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

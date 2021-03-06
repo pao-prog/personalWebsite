@@ -2,7 +2,7 @@ import './landing-page.css';
 
 function LandingPage() {
   return (
-    <div className="landingPage">
+    <div className="landingPage" id="landing">
       <div className="title">
         PAOLA NOUN
       </div>
