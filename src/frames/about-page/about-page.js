@@ -4,7 +4,6 @@ import cutepic from '../../assets/smiling-trees.JPEG';
 function AboutPage() {
     return (
         <div className="aboutPage" id="about">
-            
             <div className="left">
                 <div className="about">About</div>
                 <div className="summary">

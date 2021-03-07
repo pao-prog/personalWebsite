@@ -2,6 +2,7 @@ import Airtable from 'airtable';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import React, { useEffect, useState } from "react";
 import * as FeatherIcon from 'react-feather';
+import * as IonIcon from 'react-ionicons';
 import 'react-vertical-timeline-component/style.min.css';
 import './timeline-page.css';
 
@@ -14,10 +15,15 @@ const icons = {
     Code: {
         icon: <FeatherIcon.Code />,
         style: {background: '#333333' , color: '#fff' }
+    },
+
+    Research: {
+        icon: <IonIcon.FlaskOutline color={'#FFFFFF'} width={"1.5em"} height={"1.5em"}/>,
+        style: {background: '#333333' , color: '#FFFFFF'}
     }
 }
 
-const base = new Airtable({apiKey: 'keyYyK3pJdeyhecUg'}).base('appI3tV6MavWBUv9e');
+const base = new Airtable({apiKey: process.env.REACT_APP_API_KEY}).base('appI3tV6MavWBUv9e');
 
 function TimelinePage() {
     const [positions, setPositions] = useState([]);
